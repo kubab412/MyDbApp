@@ -1,0 +1,12 @@
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\bin\Debug\net5.0\MyDbApp.Domain.deps.json
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\bin\Debug\net5.0\MyDbApp.Domain.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\bin\Debug\net5.0\ref\MyDbApp.Domain.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\bin\Debug\net5.0\MyDbApp.Domain.pdb
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.csproj.AssemblyReference.cache
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.AssemblyInfoInputs.cache
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.AssemblyInfo.cs
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\ref\MyDbApp.Domain.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Domain\obj\Debug\net5.0\MyDbApp.Domain.pdb

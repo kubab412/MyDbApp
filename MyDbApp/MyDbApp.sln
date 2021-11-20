@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDbApp", "MyDbApp\MyDbApp.csproj", "{094E3968-4346-469D-A18F-494C5D139A35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2737603D-6EA6-47BF-BCA8-22F800432B8C} = {2737603D-6EA6-47BF-BCA8-22F800432B8C}
+		{57D678B9-EEE0-4F07-9F6B-9EF16890182C} = {57D678B9-EEE0-4F07-9F6B-9EF16890182C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDbApp.Database", "MyDbApp.Database\MyDbApp.Database.csproj", "{57D678B9-EEE0-4F07-9F6B-9EF16890182C}"
 EndProject

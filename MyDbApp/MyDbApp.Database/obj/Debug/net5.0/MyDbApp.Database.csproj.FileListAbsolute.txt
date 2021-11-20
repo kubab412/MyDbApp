@@ -1,0 +1,15 @@
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\bin\Debug\net5.0\MyDbApp.Database.deps.json
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\bin\Debug\net5.0\MyDbApp.Database.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\bin\Debug\net5.0\ref\MyDbApp.Database.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\bin\Debug\net5.0\MyDbApp.Database.pdb
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\bin\Debug\net5.0\MyDbApp.Domain.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\bin\Debug\net5.0\MyDbApp.Domain.pdb
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.csproj.AssemblyReference.cache
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.AssemblyInfoInputs.cache
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.AssemblyInfo.cs
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.csproj.CoreCompileInputs.cache
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.csproj.CopyComplete
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\ref\MyDbApp.Database.dll
+C:\Users\huawei\OneDrive\Dokumenty\GitHub\MyDbApp\MyDbApp\MyDbApp.Database\obj\Debug\net5.0\MyDbApp.Database.pdb
