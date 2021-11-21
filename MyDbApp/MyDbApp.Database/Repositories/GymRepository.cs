@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MyDbApp.Database
 {
-    public class GymRepository
+    public class GymRepository : IGymRepository
     {
         private DbSet<GymEntity> gymAccessories { get; set; }
         private MyDbAppDbContext _dbContext;
@@ -22,7 +22,7 @@ namespace MyDbApp.Database
         public bool Add(GymEntity entity)
         {
             gymAccessories.Add(entity);
-            return _dbContext.SaveChanges() >0;
+            return _dbContext.SaveChanges() > 0;
         }
         public bool Edit(GymEntity entity)
         {
@@ -38,7 +38,7 @@ namespace MyDbApp.Database
         }
         public bool Remove(int id)
         {
-            var result = gymAccessories.FirstOrDefault(x => x.Id==id);
+            var result = gymAccessories.FirstOrDefault(x => x.Id == id);
             gymAccessories.Remove(result);
             return _dbContext.SaveChanges() > 0;
         }

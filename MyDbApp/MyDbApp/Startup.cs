@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using MyDbApp.Database;
 using System;
+using MyDbApp.Domain;
 
 namespace MyDbApp
 {
@@ -24,6 +25,7 @@ namespace MyDbApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MyDbAppDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("Default")));
+            services.AddScoped<DtoMapper>();
 
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "n29xh2iZzyOskNDsdhyO9vFabLYupFX3XWclYOZbg1VrTSjftav8rvuVFkugoERP3CpvOKL+yDXSzbtBKGaNMA==",
+  "dgSpecHash": "6M8N7ITtBO43QRzMjnL3CkNrrPyVTABDKQ3AxRUQjoSn3RJv0qw+2PByi2jAhjSZBomF15qEJSuIB54MhOiBLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\huawei\\OneDrive\\Dokumenty\\GitHub\\MyDbApp\\MyDbApp\\MyDbApp.Domain\\MyDbApp.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\huawei\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

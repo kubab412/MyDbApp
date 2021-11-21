@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MyDbApp.Database
 {
-    public class RunRepository
+    public class RunRepository : IRunRepository
     {
         private DbSet<RunEntity> runAccessories { get; set; }
         private MyDbAppDbContext _dbContext;

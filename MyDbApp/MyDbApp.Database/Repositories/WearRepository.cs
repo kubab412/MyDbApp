@@ -1,14 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyDbApp.Domain;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyDbApp.Database
 {
-    public class WearRepository
+    public class WearRepository : IWearRepository
     {
         private DbSet<WearEntity> wears { get; set; }
         private MyDbAppDbContext _dbContext;
@@ -27,7 +24,7 @@ namespace MyDbApp.Database
             wears.Add(entity);
             return _dbContext.SaveChanges() > 0;
         }
-        public bool Edit(RunEntity entity)
+        public bool Edit(WearEntity entity)
         {
             var result = wears.FirstOrDefault(x => x.Id == entity.Id);
             if (result != null)

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MyDbApp.Database
 {
-    public class SwimRepository
+    public class SwimRepository : ISwimRepository
     {
         private DbSet<SwimEntity> swimAccessories { get; set; }
         private MyDbAppDbContext _dbContext;

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MyDbApp.Database
 {
-    public class CategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
         private DbSet<CategoryEntity> _categories { get; set; }
         private MyDbAppDbContext _dbContext;
