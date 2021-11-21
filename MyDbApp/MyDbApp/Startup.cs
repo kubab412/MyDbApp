@@ -26,6 +26,8 @@ namespace MyDbApp
         {
             services.AddDbContext<MyDbAppDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddScoped<DtoMapper>();
+            services.AddTransient<IGymRepository, GymRepository>();
+            services.AddTransient<IGymManager, GymManager>();
 
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory

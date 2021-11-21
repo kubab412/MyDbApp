@@ -2,7 +2,7 @@
 
 namespace MyDbApp.Domain
 {
-    public class WearManager
+    public class WearManager : IWearManager
     {
         private readonly IWearRepository _repository;
         private readonly DtoMapper _dtoMapper;

@@ -2,7 +2,7 @@
 
 namespace MyDbApp.Domain
 {
-    public class RunManager
+    public class RunManager : IRunManager
     {
         private readonly IRunRepository _repository;
         private readonly DtoMapper _dtoMapper;

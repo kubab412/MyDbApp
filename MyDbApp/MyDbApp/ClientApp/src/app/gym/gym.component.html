@@ -1,1 +1,23 @@
-<p>gym works!</p>
+<button (click)="ShowAll()">show</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of gyms">
+    <tr>
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.name}}</td>
+      <td><button (click)="Edit(item.id, gymDto.Name)">Edit</button>
+      <button (click)="Remove(item.id)">Remove</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<input [(ngModel)]="gymDto.Name" />
+<button (click)="SendRequest()">Send</button>

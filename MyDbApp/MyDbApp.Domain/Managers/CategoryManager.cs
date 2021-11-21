@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace MyDbApp.Domain
 {
-    public class CategoryManager
+    public class CategoryManager : ICategoryManager
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly DtoMapper _dtoMapper;
@@ -18,7 +14,7 @@ namespace MyDbApp.Domain
 
         public IEnumerable<CategoryDto> GetAll()
         {
-            var result =  _categoryRepository.GetAll();
+            var result = _categoryRepository.GetAll();
             return _dtoMapper.Map(result);
         }
     }

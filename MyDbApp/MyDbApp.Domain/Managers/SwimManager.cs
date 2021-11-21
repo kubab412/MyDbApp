@@ -2,7 +2,7 @@
 
 namespace MyDbApp.Domain
 {
-    public class SwimManager
+    public class SwimManager : ISwimManager
     {
         private readonly ISwimRepository _repository;
         private readonly DtoMapper _dtoMapper;

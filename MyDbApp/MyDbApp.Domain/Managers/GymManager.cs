@@ -2,7 +2,7 @@
 
 namespace MyDbApp.Domain
 {
-    public class GymManager
+    public class GymManager : IGymManager
     {
         private readonly IGymRepository _repository;
         private readonly DtoMapper _dtoMapper;
@@ -28,7 +28,7 @@ namespace MyDbApp.Domain
         }
         public bool Remove(int id)
         {
-           return _repository.Remove(id);
+            return _repository.Remove(id);
         }
     }
 }
