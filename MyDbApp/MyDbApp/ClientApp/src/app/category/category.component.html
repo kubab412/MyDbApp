@@ -1,1 +1,17 @@
-<p>category works!</p>
+<button (click)="ShowAll()">show</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of categories">
+    <tr>
+      <th scope="row">{{item.id}}</th>
+      <td><a href="https://localhost:5001/{{item.name}}">{{item.name}}</a></td>
+    </tr>
+  </tbody>
+</table>
+
+

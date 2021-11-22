@@ -1,14 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
 using MyDbApp.Database;
-using System;
 using MyDbApp.Domain;
+using System;
 
 namespace MyDbApp
 {
@@ -27,7 +26,13 @@ namespace MyDbApp
             services.AddDbContext<MyDbAppDbContext>(x => x.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddScoped<DtoMapper>();
             services.AddTransient<IGymRepository, GymRepository>();
+            services.AddTransient<ISwimRepository, SwimRepository>();
+            services.AddTransient<IRunRepository, RunRepository>();
+            services.AddTransient<IWearRepository, WearRepository>();
             services.AddTransient<IGymManager, GymManager>();
+            services.AddTransient<ISwimManager, SwimManager>();
+            services.AddTransient<IRunManager, RunManager>();
+            services.AddTransient<IWearManager, WearManager>();
 
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory

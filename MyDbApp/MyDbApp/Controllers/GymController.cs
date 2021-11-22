@@ -5,10 +5,10 @@ namespace MyDbApp.Controllers
 {
     [ApiController]
     [Route("gym")]
-    public class GymConytoller : ControllerBase
+    public class GymController : ControllerBase
     {
         private readonly IGymManager _gymManager;
-        public GymConytoller(IGymManager gymManager)
+        public GymController(IGymManager gymManager)
         {
             _gymManager = gymManager;
         }
@@ -28,7 +28,7 @@ namespace MyDbApp.Controllers
             return Ok(result);
         }
         [HttpDelete("{id}")]
-        public IActionResult Remove([FromBody]int id)
+        public IActionResult Remove(int id)
         {
             _gymManager.Remove(id);
             return Ok(id);
